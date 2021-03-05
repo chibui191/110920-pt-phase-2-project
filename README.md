@@ -11,7 +11,10 @@ This repository offers an analysis of factors that influence housing prices in K
 ```
 ├── README.md        <-- Main README file explaining the project's business case,
 │                        methodology, and findings
-│
+│ 
+├── linreg.yml       <-- Contains all the necessary packages needed to recreate your 
+│                        own linreg conda environment for this project
+│ 
 ├── data             <-- Data in CSV format
 │   ├── processed    <-- Processed (combined, cleaned) data used for modeling
 │   └── raw          <-- Original (immutable) data dump
@@ -29,12 +32,15 @@ This repository offers an analysis of factors that influence housing prices in K
 
 ### Quick Links
 
-1. [Final Analysis Notebook](notebooks/exploratory/final_notebook.ipynb)
+1. [Final Analysis Notebook](notebooks/exploratory/report/final_notebook.ipynb)
 2. [Presentation Slides](reports/presentation.pdf)
 
 ### Setup Instructions
 
-TODO: add setup instructions (e.g. the name of the Conda environment file)
+After cloning the repository, run the following to create an environment from YAML file:
+```
+conda env create --file linreg.yml
+```
 
 
 ## Business Understanding
@@ -283,6 +289,7 @@ Coefficients for `been_Renovated_1` (indicating that a property has been renovat
 <img src="./reports/figures/plt-02.png" width="800" class="center">
 
 Performing a Welch's t-test on all 4 regions with:
+
     - **Null Hypothesis (H_0)**: There is no difference in average Sale Price between houses that have been renovated and those that have not.
     - **Alternative Hypothesis (H_A)**: The average Sale Price of houses that have been renovated is greater than the average Sale Price of those that have not.
 
