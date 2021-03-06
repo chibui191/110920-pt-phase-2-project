@@ -111,7 +111,7 @@ Note: due to my lack of knowledge in Real Estate, my interpretation of some attr
 
 <img src="./reports/figures/plt-01.png" width="800" class="center">
 
-Looking at `SalePrice` grouped by by Geographical `Region` (Reference: https://www.communitiescount.org/king-county-geographies) **East**, **South**, **Seattle**, and **North**, we can see that different regions do have different `SalePrice` distributions:
+Looking at `SalePrice` grouped by Geographical `Region` (Reference: https://www.communitiescount.org/king-county-geographies) **East**, **South**, **Seattle**, and **North**, we can see that different regions do have different `SalePrice` distributions:
 - **East**, **Seattle**, and **North** are overlapping each other more than **South** does.
 - **South** Sale Price seems to have a smaller mean, smaller standard deviation, yet at very high density compared to other regions.
 
@@ -331,7 +331,7 @@ North                                    138693.658964
 
 Looking at the coefficients for `HeatSystem` feature, I can identify some of the more financially beneficial for homeowners in based on their location regions are as follows:
 - Hot Water seems to be the best option in the East region 
-- Heat Pump seems to be the top choice for properties in the South and Seattle regions
+- Heat Pump and Hot Water seem to be the top choices for properties in the South and Seattle regions
 - No specific type of Heat System was selected as predictors in the North
 
 <img src="./reports/figures/plt-08.png" width="800" class="center">
@@ -340,7 +340,7 @@ Looking at the coefficients for `HeatSystem` feature, I can identify some of the
 Above plots have confirmed the inferential findings about Heat System:
 - Forced Air may be the most popular choices for homowners in King County (overall denstity of ForcedAir is higher than that of other systems), but
 - Hot Water seems to be the best option in the East region
-- Heat Pump and Hot Water seems to be the top choices for properties in the South and Seattle regions
+- Heat Pump and Hot Water seem to be the top choices for properties in the South and Seattle regions
 - Heat Pump or Hot Water would probably add more value to a property (derived from visualization only)
 
 ### Deck
