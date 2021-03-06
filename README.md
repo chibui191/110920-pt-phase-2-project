@@ -286,7 +286,7 @@ North           131178.994186
 
 Coefficients for `been_Renovated_1` (indicating that a property has been renovated at least once) are all positive and was selected as one of the statistically significant features in 3 out of 4 regions (East, South, and North). It can be interpreted from these coefficients that the fact that a property's renovation has been documented could potentially increase its value by an amount between USD 88,000 to USD 186,000 depending on the location region.
 
-<img src="./reports/figures/plt-02.png" width="800" class="center">
+<img src="./reports/figures/plt-03.png" width="800" class="center">
 
 Performing a Welch's t-test on all 4 regions with:
 
