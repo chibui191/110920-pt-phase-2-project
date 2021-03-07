@@ -326,7 +326,7 @@ Welch's t-test results do confirm above findings about Porch.
 East            142063.398479            -33246.446591
 South            52957.971219                                      72183.967173
 Seattle                                  -38562.34762              54509.069104
-North                                    138693.658964
+North                                    
 ```
 
 Looking at the coefficients for `HeatSystem` feature, I can identify some of the more financially beneficial for homeowners in based on their location regions are as follows:
@@ -338,7 +338,7 @@ Looking at the coefficients for `HeatSystem` feature, I can identify some of the
 <img src="./reports/figures/plt-09.png" width="800" class="center">
 
 Above plots have confirmed the inferential findings about Heat System:
-- Forced Air may be the most popular choices for homowners in King County (overall denstity of ForcedAir is higher than that of other systems), but
+- Forced Air may be the most popular choice for homeowners in King County (overall denstity of ForcedAir is higher than that of other systems), but
 - Hot Water seems to be the best option in the East region
 - Heat Pump and Hot Water seem to be the top choices for properties in the South and Seattle regions
 - Heat Pump or Hot Water would probably add more value to a property (derived from visualization only)
